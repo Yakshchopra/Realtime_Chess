@@ -1,0 +1,15 @@
+{
+  "name": "realtime_chess",
+  "version": "1.0.0",
+  "description": "Realtime chess ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaksh Chopra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
