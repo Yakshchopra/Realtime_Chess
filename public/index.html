@@ -1,28 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Realtime_chess</title>
-    <link rel="stylesheet" href="lib/chessboard-0.3.0.min.css">
-    
+    <link rel="stylesheet" href="lib/chessboard-0.3.0.min.css" />
+
     <script src="/socket.io/socket.io.js"></script>
   </head>
   <style>
-      body {
-	overflow-y: auto;
-	display: flex;
-	align-items: center;
-        justify-content: center;
-} 
+    body {
+      overflow-y: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
-#gameBoard {
-    width: 400px;
-}
+    #gameBoard {
+      width: 30%;
+    }
   </style>
   <body>
-    <div id='gameBoard'></div>       
-    <script src="lib/chess.min.js"></script> 
-    <script src="lib/chessboard-0.3.0.min.js"></script> 
-    <script src="lib/jquery-1.11.1.js"></script> 
+    <div id="gameBoard"></div>
+    <script src="lib/chess.min.js"></script>
+    <script src="lib/chessboard-0.3.0.min.js"></script>
+    <script src="lib/jquery-1.11.1.js"></script>
     <script src="/client.js"></script>
   </body>
 </html>
